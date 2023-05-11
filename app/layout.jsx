@@ -1,5 +1,5 @@
 import "@styles/global.css";
-import Nav from "@components/nav";
+import Nav from "@components/Nav";
 import Provider from "@components/Provider";
 
 export const metada = {
@@ -18,7 +18,7 @@ const RootLayout = ({ children }) => {
         <main className="app">
           <Nav />
           {children}
-        </main>
+          </main>
       </body>
     </html>
   );
